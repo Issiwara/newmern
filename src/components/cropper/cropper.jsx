@@ -99,7 +99,7 @@ export default function RenderCropper({ handleCropper , setAvatar}) {
 			const formdata = new FormData();
 			formdata.append("croppedImage", convertedUrlToFile);
 
-			const res = await fetch("http://44.203.151.217/api/users/setProfilePic", {
+			const res = await fetch("http://52.70.35.64/api/users/setProfilePic", {
 				//mode: "no-cors",
 				method: "POST",
 				body: formdata,
